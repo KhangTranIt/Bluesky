@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{43551B6F-ABCF-448B-BAC6-28872D07FB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluesky.Web", "Presentation\Bluesky.Web\Bluesky.Web.csproj", "{A0FE7CA9-78AD-420C-B346-83C3367CC49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluesky.Web.Framework", "Presentation\Bluesky.Web.Framework\Bluesky.Web.Framework\Bluesky.Web.Framework.csproj", "{6FBD1C11-B599-4460-8A88-EC3589D1ED95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{82370131-B3F0-4E05-82F3-0EF7AF82F707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluesky.Core", "Libraries\Bluesky.Core\Bluesky.Core.csproj", "{B985000E-7997-464D-A9A7-6616C90AAB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluesky.Data", "Libraries\Bluesky.Data\Bluesky.Data.csproj", "{675DC163-B398-4EFF-87FA-3433222F0916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluesky.Services", "Libraries\Bluesky.Services\Bluesky.Services.csproj", "{FF33A790-BB66-4944-A711-4CF95D96B578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluesky.Admin", "Presentation\Bluesky.Web\Administration\Bluesky.Admin.csproj", "{C6E05972-270A-4C4C-ADA3-0C388CB80FC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0FE7CA9-78AD-420C-B346-83C3367CC49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FE7CA9-78AD-420C-B346-83C3367CC49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FE7CA9-78AD-420C-B346-83C3367CC49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FE7CA9-78AD-420C-B346-83C3367CC49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBD1C11-B599-4460-8A88-EC3589D1ED95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBD1C11-B599-4460-8A88-EC3589D1ED95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBD1C11-B599-4460-8A88-EC3589D1ED95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBD1C11-B599-4460-8A88-EC3589D1ED95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B985000E-7997-464D-A9A7-6616C90AAB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B985000E-7997-464D-A9A7-6616C90AAB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B985000E-7997-464D-A9A7-6616C90AAB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B985000E-7997-464D-A9A7-6616C90AAB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675DC163-B398-4EFF-87FA-3433222F0916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675DC163-B398-4EFF-87FA-3433222F0916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675DC163-B398-4EFF-87FA-3433222F0916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675DC163-B398-4EFF-87FA-3433222F0916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF33A790-BB66-4944-A711-4CF95D96B578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF33A790-BB66-4944-A711-4CF95D96B578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF33A790-BB66-4944-A711-4CF95D96B578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF33A790-BB66-4944-A711-4CF95D96B578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E05972-270A-4C4C-ADA3-0C388CB80FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E05972-270A-4C4C-ADA3-0C388CB80FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E05972-270A-4C4C-ADA3-0C388CB80FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E05972-270A-4C4C-ADA3-0C388CB80FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0FE7CA9-78AD-420C-B346-83C3367CC49D} = {43551B6F-ABCF-448B-BAC6-28872D07FB61}
+		{6FBD1C11-B599-4460-8A88-EC3589D1ED95} = {43551B6F-ABCF-448B-BAC6-28872D07FB61}
+		{C6E05972-270A-4C4C-ADA3-0C388CB80FC7} = {43551B6F-ABCF-448B-BAC6-28872D07FB61}
+		{B985000E-7997-464D-A9A7-6616C90AAB51} = {82370131-B3F0-4E05-82F3-0EF7AF82F707}
+		{675DC163-B398-4EFF-87FA-3433222F0916} = {82370131-B3F0-4E05-82F3-0EF7AF82F707}
+		{FF33A790-BB66-4944-A711-4CF95D96B578} = {82370131-B3F0-4E05-82F3-0EF7AF82F707}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,70 @@
+﻿@using Bluesky.Core.Domain.Accounts
+@using Kendo.Mvc.UI
+@using Bluesky.Admin.Models.Account
+
+@model IEnumerable<AccountModels>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@section leftmenu{
+    @Html.Action("LeftAdminMenu", "Common", new { activeItem = "bank" })
+}
+
+
+<div class="form-group">
+
+    <div id="gridUser">
+    </div>
+
+</div>
+
+
+@(Html.Kendo().Grid <AccountModels>()
+      .Name("grid")
+      .Columns(columns =>
+                   {
+                       columns.Bound(p => p.UserName).Width(250);
+                       columns.Bound(p => p.Email).Width(250);
+                     
+                       columns.Bound(p => p.Email).Width(250);
+                       columns.Bound(p => p.BankName).Width(250);
+
+                   })
+      .ToolBar(toolbar => toolbar.Custom().Text("Create").Url("/UsersAdmin/Create"))
+      .ToolBar(toolbar =>
+                   {
+                       toolbar.Template(@<text>
+
+                        <div class="k-toolbar k-grid-toolbar k-grid-top">
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <a class="k-button k-button-icontext " href="/ExportExcell/ExportUsersToXlsx">
+                                    <span></span>
+                                    Export excell
+                                </a>
+                            }
+                        </div>
+
+                    </text>);
+                   })
+                                      .Pageable()
+                                      .Sortable()
+
+
+                                      .Pageable(pageable => pageable
+                                                                .Refresh(true)
+                                                                .PageSizes(false)
+                                                                .ButtonCount(5))
+
+                                      .DataSource(dataSource => dataSource
+                                                                    .Ajax()
+                                                                    .PageSize(20)
+
+                                                                    .Model(model => model.Id(p => p.Email))
+                                                                                                     .Read(read => read.Action("AccountList", "AccountManager").Type(HttpVerbs.Post))
+
+
+                                      ))

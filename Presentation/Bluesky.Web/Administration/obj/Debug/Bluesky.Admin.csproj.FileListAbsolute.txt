@@ -1,0 +1,44 @@
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\Bluesky.Admin.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\Bluesky.Admin.pdb
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\Microsoft.Web.Infrastructure.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\Newtonsoft.Json.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.Helpers.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.Mvc.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.Razor.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.WebPages.Deployment.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.WebPages.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.WebPages.Razor.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\Newtonsoft.Json.xml
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.Helpers.xml
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.Mvc.xml
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.Razor.xml
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.WebPages.xml
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.WebPages.Deployment.xml
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\bin\System.Web.WebPages.Razor.xml
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\obj\Debug\Bluesky.Admin.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\obj\Debug\Bluesky.Admin.pdb
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administrator\obj\Debug\Bluesky.Admin.csprojResolveAssemblyReference.cache
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\bin\Bluesky.Admin.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\bin\Bluesky.Admin.pdb
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.csprojResolveAssemblyReference.cache
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.pdb
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\bin\Bluesky.Admin.dll.config
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\bin\Bluesky.Admin.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\bin\Bluesky.Admin.pdb
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.csprojResolveAssemblyReference.cache
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.pdb
+C:\Users\Hunter\Desktop\NewTownv2\Presentation\Bluesky.Web\bin\Bluesky.Admin.dll.config
+C:\Users\Hunter\Desktop\NewTownv2\Presentation\Bluesky.Web\bin\Bluesky.Admin.dll
+C:\Users\Hunter\Desktop\NewTownv2\Presentation\Bluesky.Web\bin\Bluesky.Admin.pdb
+C:\Users\Hunter\Desktop\NewTownv2\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.csprojResolveAssemblyReference.cache
+C:\Users\Hunter\Desktop\NewTownv2\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.dll
+C:\Users\Hunter\Desktop\NewTownv2\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.pdb
+D:\My Projects\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\bin\Bluesky.Admin.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\bin\Bluesky.Admin.pdb
+D:\My Projects\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.csprojResolveAssemblyReference.cache
+D:\My Projects\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\Administration\obj\Debug\Bluesky.Admin.pdb
+D:\My Projects\BlueskySolution\BlueskySolution\Presentation\Bluesky.Web\bin\Bluesky.Admin.dll.config

@@ -1,0 +1,7 @@
+﻿.navbar-default .navbar-brand {
+    padding: 0;
+}
+.k-widget.k-dropdown.k-header {
+    min-width: 210px;
+    width: auto;
+}

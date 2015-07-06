@@ -1,0 +1,179 @@
+﻿@model Bluesky.Web.Models.Common.LeftMainMenuModel
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".menu-item-@Model.ActiveItem").addClass("active");
+        var parentItem = $(".menu-item-@Model.ActiveItem").parent("li").parent().parent("li");
+        if (parentItem != undefined)
+            parentItem.addClass("active");
+    })
+</script>
+@if (Model.IsLogined)
+{
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+               
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>                              
+                            </div>
+                            <ul class="nav navbar-top-links navbar-right">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <i class="fa fa-user fa-fw"></i><i class="fa fa-caret-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-user">
+                                        <li>
+                                            <a href="Account/Manage"><i class="fa fa-user fa-fw"></i>User Profile</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-gear fa-fw"></i>Settings</a>
+                                        </li>
+                                       
+                                        <li class="divider"></li>
+                                        <li>
+                                            <a href="Account/Logout"><i class="fa fa-sign-out fa-fw"></i>Logout</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <div style=" height: 28px; text-align: center; color: gold;">
+                                <marquee id="horizontal-scrolling-msg" scrollamount="3">
+                                    <ul>
+                                        <li>
+                                            Welcome Bonus 30% for All New Register Member.
+                                        </li>
+                                    </ul>
+                                </marquee>
+                            </div>
+
+                            
+
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="margin-top"></div>
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+                <li>
+                    <a class="menu-item-transactions" href="~/"><i class="fa fa-building-o fa-fw"></i>Home</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-credit-card fa-fw"></i>My Wallet<span class="fa arrow"></span></a>
+
+                    <ul class="nav nav-second-level">
+                        <li>@Html.ActionLink("Deposit", "Deposit", "Transactions", new { @class = "menu-item-deposit" })</li>
+                        <li>@Html.ActionLink("Withdraw", "Withdraw", "Transactions", new { @class = "menu-item-withdraw" })</li>
+                        <li>@Html.ActionLink("Transfer", "Transfer", "Transactions", new { @class = "menu-item-transfer" })</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>History<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>@Html.ActionLink("History Deposit", "HistoryDeposit", "Transactions", new { @class = "menu-item-historydeposit" })</li>
+                        <li>@Html.ActionLink("History Withdraw", "HistoryWithdraw", "Transactions", new { @class = "menu-item-historywithdraw" })</li>
+                        <li>@Html.ActionLink("History Transfer", "HistoryTransfer", "Transactions", new { @class = "menu-item-historytransfer" })</li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="menu-item-livehelp" href="#"><i class="fa fa-question fa-fw"></i>Live Help</a>
+                </li>
+                <li>
+                    <a class="menu-item-announcement" href="#"><i class="fa fa-bullhorn fa-fw"></i>Announcement</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.sidebar-collapse -->
+    </div>
+
+
+    
+}
+else
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#page-wrapper").addClass("container");
+            $("#page-wrapper").attr("id", "");
+        })
+    </script>
+
+
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-collapse collapse">
+                    <div class="navbar navbar-inverse navbar-fixed-top">
+                        <div class="container">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a id="registerLink" href="/Account/Register">Register</a>
+                                </li>
+                                <li>
+                                    <a id="loginLink" href="/Account/Login">Log in</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-default navbar-static-top">
+
+        <div class="container">
+
+            <div class="navbar-default navbar-static-top" role="navigation">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right" id="side-menu">
+
+                        <li>
+                            <a class="menu-item-about" href="#"><i class="fa fa-sitemap fa-fw"></i>About</a>
+                        </li>
+                        <li>
+                            <a class="menu-item-livecasino" href="#"><i class="fa fa-user fa-fw"></i>Live Casino</a>
+                        </li>
+                        <li>
+                            <a class="menu-item-slotmachine" href="#"><i class="fa fa-sitemap fa-fw"></i>Slot Machine</a>
+                        </li>
+                        <li>
+                            <a class="menu-item-videopoker" href="#"><i class="fa fa-user fa-fw"></i>Video Poker</a>
+                        </li>
+                        <li>
+                            <a class="menu-item-bankinfo" href="#"><i class="fa fa-sitemap fa-fw"></i>Bank Info</a>
+                        </li>
+                        <li>
+                            <a class="menu-item-contact" href="#"><i class="fa fa-user fa-fw"></i>Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+        </div>
+    </div>
+
+
+    <div style="border: 1px solid rgb(64, 64, 64); border-image: none; height: 28px; text-align: center; color: gold; background-color: black;">
+        <marquee id="horizontal-scrolling-msg"    scrollamount="3">
+            <ul>
+                <li>
+                    Welcome Bonus 30% for All New Register Member.
+                </li>
+            </ul>
+        </marquee>
+    </div>
+}

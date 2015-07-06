@@ -1,0 +1,8 @@
+﻿@model Bluesky.Web.Models.Common.AdminLinkModel
+
+@if (Model.DisplayLink)
+{
+    <div class="administration-link">
+        <a href="@Url.Content("~/admin")" class="administration">Administration</a>
+   </div>
+}

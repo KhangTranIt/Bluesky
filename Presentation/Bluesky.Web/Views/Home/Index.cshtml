@@ -1,0 +1,136 @@
+﻿@using Bluesky.Web.Controllers
+@using Kendo.Mvc.UI
+@{
+    ViewBag.Title = "Home Page";
+}
+@section leftmainmenu {
+   @Html.Action("LeftMainMenu", "Common", new { activeItem = "home" })
+}
+
+<div class="row">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="~/Content/images/slide-1.jpg" alt="...">
+            </div>
+            <div class="item">
+                <img src="~/Content/images/slide-2.jpg" alt="...">
+
+            </div>
+            <div class="item">
+                <img src="~/Content/images/slide-3.jpg" alt="...">
+
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+</div>
+<!-- Carousel -->
+
+<div id="content" class="home-page">
+    <section class="row">
+
+        <div class="container" style="text-align:center;">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row" style="text-align:center; background-color: rgba(64, 64, 64, 0.64); width: initial;">
+                <div class="col-lg-4">
+                    <img class="img-thumbnail" src="~/Content/images/thumbnail-3.png" alt="Generic placeholder image" style="width: 300px; height: 300px;">
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-thumbnail" src="~/Content/images/thumbnail-2.png" alt="Generic placeholder image" style="width: 300px; height: 300px;">
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-thumbnail" src="~/Content/images/thumbnail-1.png" alt="Generic placeholder image" style="width: 300px; height: 300px;">
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <article class="row">
+                <div class="col-lg-8 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="wrapper">
+                        <div class="float_img">
+                            <img src="~/Content/images/promo-5.jpg" alt="page3_img" class="full_width">
+                        </div>
+                    </div>
+
+
+                    <div class="wrapper">
+                        <div class="float_img">
+                            <img src="~/Content/images/promo-4.jpg" alt="page3_img" class="full_width">
+                        </div>
+
+                    </div>
+                    <div class="wrapper">
+                        <div class="float_img">
+                            <img src="~/Content/images/promo-3.jpg" alt="page3_img" class="full_width">
+                        </div>
+
+                    </div>
+                    <div class="wrapper">
+                        <div class="float_img">
+                            <img src="~/Content/images/promo-2.jpg" alt="page3_img" class="full_width">
+                        </div>
+
+                    </div>
+                    <div class="wrapper">
+                        <div class="float_img">
+                            <img src="~/Content/images/promo-1.jpg" alt="page3_img" class="full_width">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" style="text-align:left;" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <h4>How to Play</h4>
+                    <div class="qoute_box1">
+                        <div class="qoute">
+                            01.
+                        </div>
+                        <div class="quote-content">
+                            <img src="~/Content/images/STEP1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="qoute_box1">
+                        <div class="qoute">
+                            02.
+                        </div>
+                        <div class="quote-content">
+                            <img src="~/Content/images/step2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="qoute_box1">
+                        <div class="qoute">
+                            03.
+                        </div>
+                        <div class="quote-content">
+                            <img src="~/Content/images/step3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="qoute_box1">
+                        <div class="qoute">
+                            04.
+                        </div>
+                        <div class="quote-content">
+                            <img src="~/Content/images/step4.png" alt="">
+                        </div>
+                    </div>
+                    <div style="margin-top:1px;">
+                        <img src="~/Content/images/banks.png" alt="">
+                    </div>
+                </div>
+            </article>
+            <div class=" row text-center">
+                <img src="~/Content/images/powerfooter.png" />
+            </div>
+        </div>
+    </section>
+</div>

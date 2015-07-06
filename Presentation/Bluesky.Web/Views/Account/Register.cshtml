@@ -1,0 +1,100 @@
+﻿@model Bluesky.Web.Models.Account.RegisterModel
+@using CaptchaMvc.HtmlHelpers
+@using CaptchaMvc.Models
+@using Kendo.Mvc.UI
+@{
+    ViewBag.Title = "Register";
+}
+@section leftmainmenu {
+   @Html.Action("LeftMainMenu", "Common", new { activeItem = "home" })
+}
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Create a new account.</h2>
+</hgroup>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Register a new account.</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })<br />
+            Registered name must match bank account name for deposits and withdrawals.
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Birthdate, new { @class = "col-md-2 control-label" })
+        @(Html.Kendo().DatePicker()
+                          .Name("Birthdate")
+                          .Value(DateTime.Now)
+        )
+        <div class="col-md-10 bfh-datepicker" data-name="Birthdate" data-format="d/m/y" data-date="today"></div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Gender, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.RadioButton("Gender", "Male", true) Male
+            @Html.RadioButton("Gender", "Female", false) Famale
+        </div>
+    </div>
+    <h4>Account Password</h4>
+    <hr />
+    <div class="form-group">
+        @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+        </div>
+    </div>
+    <h4>Contact Information</h4>
+    <hr />
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Contact, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Contact, new { @class = "form-control" })
+        </div>
+    </div>
+     <div class="form-group">
+        @Html.LabelFor(m => m.Country, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10 bfh-selectbox bfh-countries" style="width:200px" data-name="Country"></div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Language, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10 bfh-selectbox bfh-languages" style="width:200px" data-name="Language" data-available="en_US,ms_MY,zh_CN"></div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-2 control-label" ></label>
+        @Html.Hidden(Bluesky.Web.MvcApplication.MultipleParameterKey, 2)
+
+        <div class="col-md-10">
+            @Html.Captcha("Refresh", "", 5, "Is required field.", true, new ParameterModel(Bluesky.Web.MvcApplication.MultipleParameterKey, 2))
+            </div>
+            <br />
+        </div>
+        <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Register" />
+        </div>
+    </div>
+    //Adding a hidden field with a number of captcha
+   
+   
+}
+
+
+

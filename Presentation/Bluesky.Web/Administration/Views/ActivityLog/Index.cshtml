@@ -1,0 +1,73 @@
+﻿@using Kendo.Mvc.UI
+@using Bluesky.Admin.Models.ActivityLog
+
+
+@section leftmenu{
+    @Html.Action("LeftAdminMenu", "Common", new { activeItem = "bank" })
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">ActivityLog list</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        @(Html.Kendo().Grid<ActivityLogModel>()
+          .Name("grid")
+          .Columns(columns =>
+                       {
+                           columns.Bound(p => p.Id);
+                           columns.Bound(p => p.Name).Width(150);
+                           columns.Bound(p => p.UserName).Width(150);
+                           columns.Bound(p => p.UpdateBy).Width(150);
+                           columns.Bound(p => p.UpdateOn).Width(200).Format("{0: dd-MM-yyyy hh:mm:ss}");
+                       })
+          .Pageable()
+          .Sortable()
+          .HtmlAttributes(new { style = "" })
+          .DataSource(dataSource => dataSource
+                                        .Ajax()
+                                        .PageSize(20)
+                                        .Model(model => model.Id(p => p.Id))
+                                                .Read(read => read.Action("List", "ActivityLog"))
+                                      
+          ).Events(events => events.Edit("bankedit"))
+          )
+    </div>
+    <script type="text/javascript">
+        function error_handler(e) {
+            if (e.errors) {
+                var message = "Errors:\n";
+                $.each(e.errors, function (key, value) {
+                    if ('errors' in value) {
+                        $.each(value.errors, function () {
+                            message += this + "\n";
+                        });
+                    }
+                });
+                alert(message);
+            }
+        }
+
+        function bankedit() {
+
+            hideeditorfield("UpdateBy");
+            hideeditorfield("UpdateOn");
+        }
+        function hideeditorfield(fieldname) {
+            $("#" + fieldname).parent().hide();
+            $("label[for='" + fieldname + "']").parent().hide();
+        }
+    </script>
+    <style type="text/css">
+        .k-edit-form-container .editor-field .form-control {
+            height: auto;
+            width: 200px;
+        }
+
+        .k-edit-form-container .editor-field .k-datetimepicker {
+            width: 225px;
+        }
+    </style>
+</div>

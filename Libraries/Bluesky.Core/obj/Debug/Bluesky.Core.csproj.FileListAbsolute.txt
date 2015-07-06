@@ -1,0 +1,36 @@
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Bluesky.Core.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Bluesky.Core.pdb
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Autofac.Integration.Mvc.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.Mvc.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\obj\Debug\Bluesky.Core.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\obj\Debug\Bluesky.Core.pdb
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.Razor.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.WebPages.dll
+D:\Demo Projects\NewProject\Bluesky_01\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Bluesky.Core.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Bluesky.Core.pdb
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.Mvc.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.Razor.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.WebPages.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\obj\Debug\Bluesky.Core.csprojResolveAssemblyReference.cache
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\obj\Debug\Bluesky.Core.dll
+C:\Users\Hunter\Desktop\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\obj\Debug\Bluesky.Core.pdb
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Bluesky.Core.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Bluesky.Core.pdb
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Autofac.Integration.Mvc.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.Mvc.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.Razor.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.WebPages.Razor.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.WebPages.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\obj\Debug\Bluesky.Core.csprojResolveAssemblyReference.cache
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\obj\Debug\Bluesky.Core.dll
+D:\My Projects\BlueskySolution\BlueskySolution\Libraries\Bluesky.Core\obj\Debug\Bluesky.Core.pdb

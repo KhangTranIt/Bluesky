@@ -1,0 +1,89 @@
+﻿@model Bluesky.Admin.Models.Common.LeftAdminMenuModel
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".menu-item-@Model.ActiveItem").addClass("active");
+        var parentItem = $(".menu-item-@Model.ActiveItem").parent("li").parent().parent("li");
+        if (parentItem != undefined)
+            parentItem.addClass("active");
+    })
+</script>
+
+<div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+        <ul class="nav" id="side-menu">
+            <li>
+                <a class="menu-item-transactions" href="~/admin"><i class="fa fa-dashboard fa-fw"></i> Transactions</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-table fa-fw"></i> Monitor<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a class="menu-item-lastesttransactions"  href="~/admin/Transaction/LastestTransaction">Lastest Transactions</a>
+                    </li>
+                    <li>
+                        <a class="menu-item-lastestuserregistration" href="morris.html">Lastest User Registration</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Report<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a class="menu-item-transactionsummary" href="~/admin/Transaction/TransactionSummary">Transaction Summary</a>
+                    </li>
+                    <li>
+                        <a class="menu-item-despositbyuser" href="~/admin/Transaction/ReportByDeposit">Desposit by user</a>
+                    </li>
+                    <li>
+                        <a class="menu-item-withdrawbyuser" href="~/admin/Transaction/ReportByWithdraw">Withdraw by user</a>
+                    </li>
+                    <li>
+                        <a class="menu-item-transferbyuser" href="~/admin/Transaction/ReportByTransfer">Transfer by user</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-users fa-fw"></i> Member<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a class="menu-item-memberlisting" href="/admin/AccountManager">Member listing</a>
+                    </li>
+                    <li>
+                        <a class="menu-item-useractivitylog" href="/admin/ActivityLog">User activity log</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-envelope-o fa-fw"></i> Messages<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a class="menu-item-usermessage" href="~/admin/UserMessages">Message</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-building-o fa-fw"></i> Master<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a class="menu-item-product" href="~/admin/Product">Product</a>
+                    </li>
+                    <li>
+                        <a class="menu-item-bank" href="~/admin/Bank">Bank</a>
+                    </li>
+                    <li>
+                        <a class="menu-item-bonus" href="~/admin/Bonus">Bonus</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a class="menu-item-rolesadmin" href="#"><i class="fa fa-sitemap fa-fw"></i> RolesAdmin</a>
+            </li>
+            <li>
+                <a class="menu-item-usersadmin" href="#"><i class="fa fa-user fa-fw"></i> UsersAdmin</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /.sidebar-collapse -->
+</div>
