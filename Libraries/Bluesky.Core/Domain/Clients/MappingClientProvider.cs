@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bluesky.Core.Domain.Clients
 {
-    public class ClientSiteDomain : BaseEntity
+    public class MappingClientProvider : BaseEntity
     {
-        public int DomainID { get; set; }
         public int ClientID { get; set; }
-        public int SiteID { get; set; }
-       
+        public int ProviderID { get; set; }
+      
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bluesky.Core.Domain.Services
 {
-    public class Services : BaseEntity
+    public class Service : BaseEntity
     {
         public int ServiceID { get; set; }
         public string ServiceName { get; set; }
